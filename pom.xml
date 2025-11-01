@@ -40,5 +40,12 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <name>Nexus Snapshot Repository</name>
+        <url>http://13.202.83.125:8081/repository/demo/</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
 
